@@ -1,0 +1,47 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+/* card css */
+
+.main{
+    display: inline-block;
+    justify-content: space-around;
+  
+
+  }
+  .cards{
+    display: inline-block;
+    justify-content: space-around;
+  
+    margin: 20px;;
+    height: 500px;
+    width: 400px;
+    
+    box-shadow: 2px 2px 15px black;
+  }
+  .image img{
+    width: 100%;
+    height: 300px;
+     border-radius: 10px; 
+    border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+  
+  }
+  .title{
+    text-align: center;
+    padding: 20px;
+  }
+  button{
+    margin: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    transition: .5s;
+  }
+
